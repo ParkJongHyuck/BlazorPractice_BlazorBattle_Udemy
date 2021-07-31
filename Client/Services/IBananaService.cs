@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace BlazorBattle.Client.Services
 {
-    interface IBananaService
+    public interface IBananaService
     {
         event Action OnChange;
         int Bananas { get; set; }
